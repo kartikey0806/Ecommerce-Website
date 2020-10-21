@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-toggler{
+  border: none!important;
+}
+
+.nav-link{
+  color: #555;
+  font-weight: 600;
+}
+
+#navigationbar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  border-bottom:2px solid blue;
+}
+
+.logo{
+  padding-left: 10px;
+}
+
+.logo img{
+    width: 140px;
+    height: 70px;    
+}
+
+.log{
+  padding-left: 10px;
+}
+
+.log img{
+  width: 3%;
+  padding-top: 0px;
+}
+
+.nav-list li{
+  display: inline;
+  padding-top: 0px;
+}
+
+.nav-list A{
+  padding-left: 25px;
+}
+
+.navbar2 ul {
+  text-align: right;
+  padding-right: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar2 li {
+  text-decoration: none;
+  text-align: right;
+  display: inline;
+  padding-left: 15px;
+  font-size: 11px;
+}
+
+.navbar2 li M{
+  text-align: right;
+}
+
+.navbar2 li:hover {
+  color: orange;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#search{
+  width: 550px;
+  height: 35px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.searchicon img{
+  width: 44px;
+  height: 35px;
+}
+
+.myaccount img{
+  width: 40px;
+  height: 40px;
+  padding-left: 3px;
+}
+
+.nav-list li B{
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 17px;
+  font-family: serif;
+}
+
+.cartlogo img{
+  width: 40px;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.nav-list li C{
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.navbar3 ul {
+  text-align: center;
+  font-size: 12px;
+  padding-right: 50px;
+  padding-top: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar3 li {
+  text-decoration: none;
+  text-align: right;
+  display: inline;
+  padding-left: 23px;
+  font-size: 16.5px;
+  padding-bottom: 0px;
+  border-bottom-color: orange;
+}
+
+.navbar3 li:hover {
+  font-weight: bold;
+  color: orangered;
+}
+
+.navbar4 ul{
+  text-align: center;
+  text-decoration: none;
+  background-color: orange;
+  height: 30px;
+  font-weight: bold;
+  font-family: Impact,;
+}
+
+#about{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about btn{
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.about-content{
+  padding-top: 20px;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.row p Z{
+  font-size: 32px;
+  font-family: serif;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.col-md-6 img{
+  width: 100px;
+  height: 70px;
+}
+ .col-md-6 p Y{
+   font-weight: bold;
+   padding-left: 10px;
+   font-size: 19px;
+   font-family: serif;
+}
+
+.skills-bar p K{
+  font-size: 15px;
+}
+
+.skills-bar p K:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.skills-bar{
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.progress-bar p{
+  border-radius: 6px;
+}
+
+.progress{
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+#services h2{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 35px;
+  font-family: serif;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+#services{
+  background-color: lavender;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.container1 img{
+  width: 245px;
+  height: 230px;
+  padding-left: 20px;
+}
+
+.container2 img{
+  width: 620px;
+  height: 300px;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+
+.container2 p{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.container2 p:hover{
+  text-decoration: underline;
+  color: red
+}
+
+.team{
+  background-color: lavender;
+  padding-bottom: 30px;
+}
+
+.team h2{
+  color: #555;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+
+.team h2::after{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px
+}
+
+.profile-pic .image-box img{
+  cursor: pointer;
+}
+
+.profile-pic h4{
+  font-family: serif;
+  font-weight: bold;
+  padding-left: 70px;
+}
+
+.profile-pic h5{
+  font-weight: lighter;
+  font-family: serif;
+  padding-left: 70px;
+}
+
+.profile-pic h5 F{
+  font-weight: lighter;
+  font-family: serif;
+}
+
+.profile-pic h4 F{
+  font-family: serif;
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+.image-box1 img{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.image-box img{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.image-box{
+  padding-left: 70px;
+}
+
+.image-box1{
+  padding-left: 70px;
+}
+
+.profile-pic h6{
+  padding-left: 50px;
+}
+
+.shop h2{
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.shop h2::after{
+  content: '';
+  background: orange;
+  display: block;
+  height: 3px;
+  width: 220px;
+  margin: 20px auto 5px 
+}
+
+.image{
+  padding-left: 25px;
+}
+
+.image img{
+  width: 600px;
+}
+
+.shop{
+  padding-bottom: 50px;
+}
+
+.shop .p{
+  display: flex;
+}
+
+.shop .p{
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.shop .p R{
+  padding-left: 340px;
+  padding-top: 40px;
+}
+
+.shop .p R:hover{
+  text-decoration: underline;
+}
+
+.shop .p T{
+  padding-left: 140px;
+}
+
+.shop p T:hover{
+  text-decoration: underline;
+}
+
+.contact-us h2{
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.contact-us h2::after{
+  content: '';
+  background: grey;
+  display: block;
+  height: 3px;
+  width: 220px;
+  margin: 20px auto 5px 
+}
+
+.contact-us input{
+  border-color: lightblue;
+  width: 400px;
+}
+
+.contact-us h2{
+  text-align: center;
+  padding-right: 400px;
+  padding-left: 150px;
+}
+
+.contact-us{
+  padding-left: 200px;
+  background-color: #efefef;
+  padding-bottom: 20px;
+}
+
+.contact-us textarea{
+  width: 400px;
+}
+
+.p .ABCD{
+  padding-top: 100px;
+}
+
+.footer{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  background-color: darkgray;
+}
+
+.follow{
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid lightslategrey;
+}
+
+.contact-info .follow KBC{
+  padding-left: 112px;
+}
+
+.contact-info .follow ABCD{
+  padding-left: 8px;
+}
+
+.follow1 i{
+  padding-left: 10px;
+}
+
+
+.follow1 {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid lightslategrey;
+}
+
+.contact-info .fa{
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.png{
+  padding-bottom: 60px;
+}
